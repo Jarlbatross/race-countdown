@@ -6,18 +6,18 @@ A fun countdown site tracking Mari's bet to run the [Arctic Run](https://thearct
 
 After deploying to GitHub Pages, your site will be at:
 
-**https://\<your-github-username\>.github.io/mari-arctic-run-countdown/**
+**https://\<your-github-username\>.github.io/race-countdown/**
 
 ## Deploy to GitHub Pages
 
 ### 1. Create the repo on GitHub
 
-Go to [github.com/new](https://github.com/new) and create a public repo named `mari-arctic-run-countdown`.
+Go to [github.com/new](https://github.com/new) and create a public repo named `race-countdown`.
 
 Or, if you have the [GitHub CLI](https://cli.github.com/) installed:
 
 ```bash
-gh repo create mari-arctic-run-countdown --public --source=. --remote=origin
+gh repo create race-countdown --public --source=. --remote=origin
 ```
 
 ### 2. Push the code
@@ -29,7 +29,7 @@ git init
 git add .
 git commit -m "Add Arctic Run countdown site for Mari's 2029 bet"
 git branch -M main
-git remote add origin https://github.com/<your-github-username>/mari-arctic-run-countdown.git
+git remote add origin https://github.com/<your-github-username>/race-countdown.git
 git push -u origin main
 ```
 
