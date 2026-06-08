@@ -51,6 +51,6 @@ npx serve .
 
 ## Customization
 
-- **Race date/time**: edit `RACE_DATE` in `script.js` (currently midnight June 9, 2029, Europe/Oslo).
-- **Bet start date**: edit `BET_START` in `script.js` (used for the progress bar).
-- **Quips**: add or edit strings in the `QUIPS` array in `script.js`.
+- **Race date/time**: edit `window.RACE_DATE` in `index.html` (currently midnight June 9, 2029, Europe/Oslo).
+- **Bet start date**: edit `window.BET_START` in `index.html` (used for the progress bar).
+- **Quips**: add or edit strings in the `QUIPS` array in `countdown.js`.
