@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Countdown to Mari's Arctic Run marathon bet — June 9, 2029 in Vesterålen, Norway.">
+  <title>Mari vs. 42.2 km — Arctic Run Countdown</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="snow" aria-hidden="true"></div>
+
+  <main class="page">
+    <header class="hero">
+      <p class="badge">The bet is on</p>
+      <h1>Mari vs. <span class="highlight">42.2 km</span></h1>
+      <p class="subhead">Arctic Run &middot; June 9, 2029 &middot; Vesterålen, Norway</p>
+    </header>
+
+    <section class="countdown-section" aria-label="Countdown to race day">
+      <div class="countdown" id="countdown">
+        <div class="countdown-block">
+          <span class="countdown-value" id="days">--</span>
+          <span class="countdown-label">Days</span>
+        </div>
+        <div class="countdown-block">
+          <span class="countdown-value" id="hours">--</span>
+          <span class="countdown-label">Hours</span>
+        </div>
+        <div class="countdown-block">
+          <span class="countdown-value" id="minutes">--</span>
+          <span class="countdown-label">Minutes</span>
+        </div>
+        <div class="countdown-block seconds-block">
+          <span class="countdown-value" id="seconds">--</span>
+          <span class="countdown-label">Seconds</span>
+        </div>
+      </div>
+
+      <noscript>
+        <p class="noscript-fallback">Race day: June 9, 2029 at midnight (Europe/Oslo)</p>
+      </noscript>
+
+      <p class="quip" id="quip" aria-live="polite">Vesterålen is waiting.</p>
+    </section>
+
+    <section class="progress-section" aria-label="Bet progress">
+      <div class="progress-header">
+        <span>Bet elapsed</span>
+        <span id="progress-percent">0%</span>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" id="progress-fill"></div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="stat-card">
+        <span class="stat-value">42.195</span>
+        <span class="stat-label">km to conquer</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-value" id="training-runs">--</span>
+        <span class="stat-label">days of prep left</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-value">1</span>
+        <span class="stat-label">island to circle</span>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Made with questionable confidence in Mari&apos;s legs.</p>
+      <p>
+        Inspired by
+        <a href="https://thearcticrun.com/" target="_blank" rel="noopener noreferrer">The Arctic Run</a>
+        &mdash; Europe&apos;s most beautiful 42 km.
+      </p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
